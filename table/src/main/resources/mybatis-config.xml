@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE configuration
+	PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+	<typeAliases>
+		<typeAlias type="com.table.vo.CustomerVO" alias="CustomerVO" />
+		<typeAlias type="com.table.vo.BookVO" alias="BookVO" />
+		<typeAlias type="com.table.vo.OrderVO" alias="OrderVO" />
+		<typeAlias type="com.table.vo.MemberVO" alias="MemberVO" />
+	</typeAliases>
+</configuration>

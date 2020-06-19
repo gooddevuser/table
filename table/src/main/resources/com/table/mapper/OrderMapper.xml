@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE mapper
+	PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+		   "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- package-name : com.springboard.mapper, class-name : BoardMapper -->
+<mapper namespace="com.table.mapper.OrderMapper">	
+
+	<select id="showOrders" resultType="OrderVO">
+		SELECT *
+		FROM orders
+	</select>
+	
+<!-- 	<insert id="OrderWrite" parameterType="OrderVO">
+		INSERT INTO orders (orderid,custid,bookid,saleprice)
+		VALUES (#{ orderid }, #{ custid }, #{ bookid }, #{ saleprice })
+	</insert> -->
+</mapper>
